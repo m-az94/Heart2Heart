@@ -2110,7 +2110,7 @@ input, select, textarea {
 		}
 
 		.image.right {
-			float: right;
+			float: none;
 			margin: 0 0 1em 1.5em;
 			top: 0.25em;
 		}
@@ -2134,7 +2134,7 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius:0;
 		}
 
 			.image.avatar:before {
@@ -2142,8 +2142,10 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 125%;
-				width: 125%;
+				border-radius: 0%;
+				width: 130%;
+
+				
 			}
 
 /* List */
